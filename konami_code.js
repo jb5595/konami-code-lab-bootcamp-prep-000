@@ -17,7 +17,3 @@ document.body.addEventListener('keydown',  function(event) {
   }
 })
 }
-
-function konamiCode(event){
- 
-}
