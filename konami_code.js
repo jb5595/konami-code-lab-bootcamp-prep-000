@@ -5,6 +5,6 @@ function init() {
 document.addEventListener('keydown', konamiCode(e));
 }
 
-konamiCode(e){
-  console.log(e.which)
+function konamiCode(e){
+  console.log(e.which);
 }
