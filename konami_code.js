@@ -6,5 +6,16 @@ document.body.addEventListener('keydown',  konamiCode(event) )
 }
 
 function konamiCode(event){
-  console.log("e");
+  const key = parseInt(event.detail || event.which);
+  
+  if (key === code[index]){
+    index++;
+    if (index === code.length){
+      alert("hooray");
+      index = 0;  
+    }
+  }
+  else{
+    index = 0;
+  }
 }
